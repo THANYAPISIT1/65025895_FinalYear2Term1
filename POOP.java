@@ -12,10 +12,8 @@ public class POOP{
 
         Employee employee2 = new Employee("Tim", "FrontEnd", "0002");
         Project projectB1 = new Project("Web A","Developing a web application");
-        Project projectB2 = new Project("","");
 
         employee2.AddProject(projectB1);
-        employee2.AddProject(projectB2);
         employee2.ShowDetails();
     }
 }
@@ -36,7 +34,7 @@ class Employee implements Person,Job{
 
     public String getName() {
         return Name;
-    }
+    } 
 
     public void setName(String name) {
         this.Name = name;
