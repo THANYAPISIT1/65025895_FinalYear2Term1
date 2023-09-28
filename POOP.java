@@ -11,9 +11,9 @@ public class POOP{
         employee.ShowDetails();
 
         Employee employee2 = new Employee("Tim", "FrontEnd", "0002");
-        Project projectB1 = new Project("Web A","Developing a web application");
+        Project projectB = new Project("Web A","Developing a web application");
 
-        employee2.AddProject(projectB1);
+        employee2.AddProject(projectB);
         employee2.ShowDetails();
     }
 }
